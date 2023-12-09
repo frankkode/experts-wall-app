@@ -1,5 +1,5 @@
 
-import aboutImg from '../../assets/images/exp03.png';
+import aboutImg from '../../assets/images/h-iu.jpeg';
 import aboutCard from '../../assets/images/aboutCard.png';
 import { Link } from 'react-router-dom';
 
@@ -20,7 +20,7 @@ const About = () => {
                     <h2 className='heading'> Excited to be the Best</h2>
                     <p className='hand mt-[30px]'>Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.</p>
                     <p className='hand mt-[30px]'>Another effective technique is to explain your code to someone else. This will often cause you to explain the bug to yourself. Sometimes it takes no more than a few sentences, followed by an embarrassed “Never mind, I see what's wrong. Sorry to bother you.” This works remarkably well; you can even use non-programmers as listeners. One university computer center kept a teddy bear near the help desk. Students with mysterious bugs were required to explain them to the bear before they could speak to a human counselor.</p>
-                    <Link to='/'><button className='btn pl-3 pr-3'> Learn More</button></Link>
+                    <Link to='/experts'><button className='btn pl-3 pr-3'> HIRE ME</button></Link>
                </div>
           </div>
      </div>

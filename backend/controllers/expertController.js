@@ -98,7 +98,7 @@ export const getAllExpert = async (req, res) => {
   } catch (err) {
     res.status(404).json({
       success: false,
-      message: "Not found",
+      message: "Experts will Display here once available",
     });
   }
 };
