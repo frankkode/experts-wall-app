@@ -1,5 +1,5 @@
 # IU-PORTFOLIO
-# ExpertWall - Engineering Experts Connection Platform
+# ExpertWall - Engineering Experts Connection Platform.
 
 ## Overview
 
@@ -32,14 +32,17 @@ ExpertWall is a dynamic platform connecting skilled engineers and users seeking 
 
 ExpertWall is a platform where engineering experts and users connect seamlessly. The application is designed to facilitate a smooth exchange of knowledge and assistance.
 
-![Laptop](/visualisation/iu2.png)
+!\[Laptop\]\(./assets/visualisation/iu2.png)
 
-![iPad](/visualisation/iu3.png)
+![iPad](/./assets/visualisation/iu3.png)
 
-![Phone](/visualisation/iu4.png)
+![Phone](/./assets/visualisation/iu4.png)
 
 **Conceptual Design for Expert Wall Application**
-![CLOUD ARCHITECTURE](/visualisation/cloud.png)
+
+![CLOUD ARCHITECTURE](/./assets/visualisation/cloud.png)
+
+![CLOUD ARCHITECTURE](/./assets/visualisation/schema.png)
 
 ## Core Idea: 
 Expert Wall application is an innovative web application designed as a platform for junior software developers to connect with senior software developers effortlessly. Access to expert profiles is facilitated by reading expert profiles and choosing which domain of expertise you are looking for, this application ensures the authenticity and quality of interactions.
@@ -92,7 +95,7 @@ Expert Wall application is an innovative web application designed as a platform 
 **What it is:** A JavaScript library for building user interfaces.  
 **How it works:** React allows you to create reusable UI components that update efficiently in response to data changes. It uses a virtual DOM to optimize rendering performance.
 
-![Phone](/visualisation/iu1.png)
+![Phone](/./assets/visualisation/iu1.png)
 
 # React + Vite
 
@@ -181,7 +184,7 @@ The project includes comprehensive documentation, ensuring that developers and c
 A robust testing suite is implemented to verify the reliability and correctness of the application. This likely involves unit tests, integration tests, and end-to-end tests.
 
 
-![Expertwall](/visualisation/iu5.png)
+![Expertwall](/./assets/visualisation/iu5.png)
 
 ## Key Features
 
@@ -194,13 +197,13 @@ Users can create profiles with:
 - Phone Number
 - Question or Help Request Details
 
-![Laptop](/visualisation/iu6.png)
+!\[Laptop\]\(./assets/visualisation/iu6.png)
 
-![Laptop](/visualisation/iu14.png)
+!\[Laptop\]\(./assets/visualisation/iu14.png)
 
-![Laptop](/visualisation/iu15.png)
+!\[Laptop\]\(./assets/visualisation/iu15.png)
 
-![Laptop](/visualisation/iu16.png)
+!\[Laptop\]\(./assets/visualisation/iu16.png)
 
 ### Expert Registration
 
@@ -218,7 +221,7 @@ Note: After expert registration, Admin must go approve expert in order to start 
 ## User Review
  A user who is loged in can give a review, only after booking an expert.
 
-![Laptop](/visualisation/iu9.png)
+!\[Laptop\]\(./assets/visualisation/iu9.png)
 
 ## Integration of Technologies
 
@@ -226,34 +229,34 @@ Note: After expert registration, Admin must go approve expert in order to start 
 
 ExpertWall uses [Stripe](https://stripe.com/) to facilitate secure and seamless payment transactions. Users can pay for expert services with confidence.
 
-![Laptop](/visualisation/iu10.png)
+!\[Laptop\]\(./assets/visualisation/iu10.png)
 
-![Laptop](/visualisation/iu11.png)
+!\[Laptop\]\(./assets/visualisation/iu11.png)
 
-![Laptop](/visualisation/iu12.png)
+!\[Laptop\]\(./assets/visualisation/iu12.png)
 
-![Laptop](/visualisation/iu13.png)
+!\[Laptop\]\(./assets/visualisation/iu13.png)
 
 ### React Stack
 
 Utilizes React Spinner, Router, Icon, and Framer Motion for an enhanced frontend experience.
 
-![Laptop](/visualisation/iu17.png)
+!\[Laptop\]\(./assets/visualisation/iu17.png)
 
 ### Other Technologies
 
 - [TileWinds CSS](https://www.npmjs.com/package/tailwindcss) for styling.
 - [Local Storage Mock](https://www.npmjs.com/package/jest-localstorage-mock) for development.
 
-![Laptop](/visualisation/iu8.png)
+!\[Laptop\]\(./assets/visualisation/iu8.png)
 
 ### Expert Availability
 
 Experts can set their availability schedules, allowing users to see when they are available for consultation.
 
-![Laptop](/visualisation/iu19.png)
+!\[Laptop\]\(./assets/visualisation/iu19.png)
 
-![Laptop](/visualisation/iu7.png)
+!\[Laptop\]\(./assets/visualisation/iu7.png)
 
 ## User Review
  A user who is loged in can give a review, only after booking an expert.
@@ -284,7 +287,7 @@ STRIPE_SECRET_KEY= your key here
 CLIENT_SITE_URL=http://localhost:5173 ## Example: http://localhost:5173
 
 
-![Laptop](/visualisation/iu20.png)
+!\[Laptop\]\(./assets/visualisation/iu20.png)
 
 2. Set up MongoDB:
    - Create an account on MongoDB and obtain a MongoDB URI.
@@ -307,13 +310,13 @@ CLIENT_SITE_URL=http://localhost:5173 ## Example: http://localhost:5173
 
 These steps will help you set up and run the ExpertWALL application locally.
 
-![Laptop](/visualisation/mov1.mp4)
+!\[Laptop\]\(./assets/visualisation/mov1.mp4)
 
 ## Project Structure
 
 The project follows a well-organized structure, ensuring maintainability and scalability.
 
-![Laptop](/visualisation/mov2.mp4)
+!\[Laptop\]\(./assets/visualisation/mov2.mp4)
 
 ## How to Use
 
@@ -326,7 +329,7 @@ Refer to the [documentation](#documentation-and-testing) for a step-by-step guid
 ## TESTING
 3.  To test this application, just go to frontend and run "npm test" from there Jest will test the application.
 
-![Laptop](/visualisation/test.png)
+!\[Laptop\]\(./assets/visualisation/test.png)
 
 ## Contributing
 
@@ -338,4 +341,4 @@ We will welcome contributions in the future! Check the [Contributing Guidelines]
 
 Special thanks to INTERNATIONAL UNIVERSITY OF APPLIED SCIENCE [IUBH GERMANY] (https://www.iu.org/lp/distance-learning-degrees/), [CODE WITH MOSH ONLINE COURSE.](https://codewithmosh.com/p/mastering-react) 
 
-![Laptop](/visualisation/thank.png)
+!\[Laptop\]\(./assets/visualisation/thank.png)
