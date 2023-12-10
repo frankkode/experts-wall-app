@@ -32,6 +32,10 @@ ExpertWall is a dynamic platform connecting skilled engineers and users seeking 
 ## Introduction
 
 ExpertWall is a platform where engineering experts and users connect seamlessly. The application is designed to facilitate a smooth exchange of knowledge and assistance.
+
+## MOBILE FIRST APROACH
+![Laptop](frontend/src/assets/visualisation/mf.png)
+
 ## LAPTOP
 ![Laptop](frontend/src/assets/visualisation/iu2.png)
 
@@ -201,13 +205,13 @@ Users can create profiles with:
 - Phone Number
 - Question or Help Request Details
 
-!\[Laptop\]\(frontend/src/assets/visualisation/iu6.png)
+![Laptop](frontend/src/assets/visualisation/iu6.png)
 
-!\[Laptop\]\(frontend/src/assets/visualisation/iu14.png)
+![Laptop](frontend/src/assets/visualisation/iu14.png)
 
-!\[Laptop\]\(frontend/src/assets/visualisation/iu15.png)
+![Laptop](frontend/src/assets/visualisation/iu15.png)
 
-!\[Laptop\]\(frontend/src/assets/visualisation/iu16.png)
+![Laptop](frontend/src/assets/visualisation/iu16.png)
 
 ### Expert Registration
 
@@ -318,6 +322,8 @@ These steps will help you set up and run the ExpertWALL application locally.
 Images are saved to Cloudinary follow this link to learn how to set up a Cloudinary account and create a cloudinary_name (name of your project) and upload_preset (name of your folder)
 - make sure the preset to be "unsigned"
 (https://www.youtube.com/watch?v=7lhUsK-FxYI)
+
+![IMAGE](frontend/src/assets/visualisation/cloudinary.png)
 
 ## Project Structure
 
