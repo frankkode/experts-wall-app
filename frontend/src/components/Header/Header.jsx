@@ -1,4 +1,4 @@
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/nh7.webp";
 import { NavLink, Link } from "react-router-dom";
 import { BiMenu } from "react-icons/bi";
 import { useContext, useEffect, useRef } from "react";
@@ -52,11 +52,11 @@ const Header = () => {
   const toggleMenu = () => menuRef.current.classList.toggle("show__menu");
 
   return (
-    <header ref={headerRef} className="header flex items-center">
+    <header ref={headerRef} className=" bg-[#1686b0] header flex items-center">
       <div className="container">
         <div className="flex items-center justify-between">
           {/* =========== logo ========== */}
-          <div className="w-[170px] ]">
+          <div className="w-[100px] ]">
             <img src={logo} alt="logo" />
           </div>
 
@@ -69,8 +69,8 @@ const Header = () => {
                     to={link.path}
                     className={(navClass) =>
                       navClass.isActive
-                        ? "text-[#25b7e3] font-[600] text-[16px] leading-7"
-                        : "text-textColor font-[500] text-[16px] leading-7"
+                        ? "text-[#ffd] font-[600] text-[30px] leading-7"
+                        : "text-[#fff] font-[500] text-[30px] leading-7"
                     }
                   >
                     {link.display}
