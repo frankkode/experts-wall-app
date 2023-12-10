@@ -2,7 +2,7 @@
 
 **Conceptual Design for Expert Wall Application**
 
-Introduction
+## Introduction.
  **Core Idea: **Expert Wall application is an innovative web application designed as a platform for junior software developers to connect with senior software developers effortlessly. Access to expert profiles is facilitated by reading expert profiles and choosing which domain of expertise you are looking for, this application ensures the authenticity and quality of interactions.
  **Target Users: Junior software developer**
  **Who Are The Users?: **The user audience includes students, professionals, hobbyists, and anyone seeking specialized knowledge and solutions in their software development daily debugging.
