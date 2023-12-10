@@ -31,7 +31,7 @@ const MyAccount = () => {
       <div className="max-w-[1170px] px-5 mx-auto">
         {loading && (
           <div className="flex items-center justify-center w-full h-full">
-            <HashLoader color="#0067FF" />
+            <HashLoader color="#25b7e3" />
           </div>
         )}
         {error && !loading && (
@@ -46,7 +46,7 @@ const MyAccount = () => {
           <div className="grid md:grid-cols-3 gap-10 ">
             <div className=" px-[30px] pb-[50px] rounded-md  ">
               <div className="flex items-center justify-center">
-                <figure className="w-[100px] h-[100px] rounded-full border-2 border-solid border-[#0067FF]">
+                <figure className="w-[100px] h-[100px] rounded-full border-2 border-solid border-[#25b7e3]">
                   <img
                     src={userData?.photo}
                     alt=""
@@ -83,16 +83,16 @@ const MyAccount = () => {
                 <button
                   onClick={() => setTab("bookings")}
                   className={`${
-                    tab === "bookings" && "bg-[#0067FF] text-white font-normal"
-                  }  p-2 mr-5 px-5 rounded-md text-headingColor font-semibold text-[16px] leading-7  border border-solid border-[#0067FF]`}
+                    tab === "bookings" && "bg-[#25b7e3] text-white font-normal"
+                  }  p-2 mr-5 px-5 rounded-md text-headingColor font-semibold text-[16px] leading-7  border border-solid border-[#25b7e3]`}
                 >
                   My Bookings
                 </button>
                 <button
                   onClick={() => setTab("settings")}
                   className={`${
-                    tab === "settings" && "bg-[#0067FF] text-white font-normal"
-                  } py-2 px-5 rounded-md font-semibold text-headingColor text-[16px] leading-7  border border-solid border-[#0067FF]`}
+                    tab === "settings" && "bg-[#25b7e3] text-white font-normal"
+                  } py-2 px-5 rounded-md font-semibold text-headingColor text-[16px] leading-7  border border-solid border-[#25b7e3]`}
                 >
                   Settings
                 </button>

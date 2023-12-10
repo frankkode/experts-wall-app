@@ -17,7 +17,7 @@ const MyBookings = () => {
     <div>
       {loading && (
         <div className="flex items-center justify-center w-full h-full">
-          <HashLoader color="#0067FF" />
+          <HashLoader color="#25b7e3" />
         </div>
       )}
 

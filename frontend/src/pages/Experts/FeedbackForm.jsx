@@ -85,7 +85,7 @@ const FeedbackForm = () => {
           Share your feedback or suggestions*
         </p>
         <textarea
-          className="border border-solid border-[#0066ff34] focus:outline outline-[#0067FF] w-full px-4 py-3 rounded-md"
+          className="border border-solid border-[#0066ff34] focus:outline outline-[#25b7e3] w-full px-4 py-3 rounded-md"
           name=""
           id=""
           rows="5"

@@ -29,7 +29,7 @@
   }
 
   .hero__section {
-    @apply bg-[url('./assets/images/patterns.png')] bg-no-repeat bg-cover bg-center;
+    @apply bg-[url('./assets/images/pattern3.png')] bg-no-repeat bg-cover bg-center;
   }
 
   .text__para {

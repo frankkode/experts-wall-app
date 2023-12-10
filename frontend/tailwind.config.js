@@ -28,7 +28,7 @@ export default {
         headerColor:"antiquewhite",
       },
       backgroundImage: {
-        pattern: "url('/patterns.png')",
+        pattern: "url('/pattern3.png')",
       },
       boxShadow: {
         panelShadow: "rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;",

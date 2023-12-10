@@ -30,7 +30,7 @@ const Tabs = ({ tab, setTab }) => {
           onClick={() => setTab("overview")}
           className={` ${
             tab === "overview"
-              ? "bg-indigo-100 text-[#0067FF]"
+              ? "bg-indigo-100 text-[#25b7e3]"
               : "bg-transparent text-headingColor"
           } w-full   btn rounded-md  mt-0`}
         >
@@ -40,7 +40,7 @@ const Tabs = ({ tab, setTab }) => {
           onClick={() => setTab("appointments")}
           className={` ${
             tab === "appointments"
-              ? "bg-indigo-100 text-[#0067FF]"
+              ? "bg-indigo-100 text-[#25b7e3]"
               : "bg-transparent text-headingColor"
           } w-full   btn rounded-md  mt-0`}
         >
@@ -51,7 +51,7 @@ const Tabs = ({ tab, setTab }) => {
           onClick={() => setTab("settings")}
           className={` ${
             tab === "settings"
-              ? "bg-indigo-100 text-[#0067FF]"
+              ? "bg-indigo-100 text-[#25b7e3]"
               : "bg-transparent text-headingColor"
           } w-full   btn rounded-md  mt-0`}
         >

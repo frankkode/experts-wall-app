@@ -56,7 +56,7 @@ const Header = () => {
       <div className="container">
         <div className="flex items-center justify-between">
           {/* =========== logo ========== */}
-          <div>
+          <div className="w-[170px] ]">
             <img src={logo} alt="logo" />
           </div>
 
@@ -69,7 +69,7 @@ const Header = () => {
                     to={link.path}
                     className={(navClass) =>
                       navClass.isActive
-                        ? "text-[#0067FF] font-[600] text-[16px] leading-7"
+                        ? "text-[#25b7e3] font-[600] text-[16px] leading-7"
                         : "text-textColor font-[500] text-[16px] leading-7"
                     }
                   >
@@ -102,7 +102,7 @@ const Header = () => {
               </div>
             ) : (
               <Link to="/login">
-                <button className="bg-buttonBgColor py-2 px-6 rounded-[50px] text-white font-[600] h-[44px] flex items-center justify-center">
+                <button className="bg-buttonBgColor py-2 px-6 rounded-[50px] text-[#25b7e3] font-[500] h-[40px] flex items-center justify-center">
                   Log In
                 </button>
               </Link>

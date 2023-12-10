@@ -39,7 +39,7 @@ const ExpertDetails = () => {
       <div className="max-w-[1170px] px-[20px] mx-auto">
         {loading && (
           <div className="flex items-center justify-center w-full h-full">
-            <HashLoader color="#0067FF" />
+            <HashLoader color="#25b7e3" />
           </div>
         )}
 
@@ -85,7 +85,7 @@ const ExpertDetails = () => {
                     onClick={() => setTab("about")}
                     className={`${
                       tab === "about" &&
-                      "border-b border-solid border-[#0067FF]"
+                      "border-b border-solid border-[#25b7e3]"
                     }  p-2 mr-5 px-5  text-headingColor font-semibold text-[16px] leading-7  `}
                   >
                     About
@@ -94,7 +94,7 @@ const ExpertDetails = () => {
                     onClick={() => setTab("feedback")}
                     className={`${
                       tab === "feedback" &&
-                      "border-b border-solid border-[#0067FF]"
+                      "border-b border-solid border-[#25b7e3]"
                     } py-2 px-5  font-semibold text-headingColor text-[16px] leading-7 `}
                   >
                     Feedback

@@ -62,7 +62,7 @@ const Login = () => {
       <div className=" w-full max-w-[570px] mx-auto rounded-lg shadow-lg md:p-10">
         <div>
           <h3 className="text-headingColor text-[22px] leading-9 font-bold mb-10">
-            Hello! <span className="text-[#0067FF]">Welcome</span> Back 🎉
+            Hello! <span className="text-[#25b7e3]">Welcome</span> Back 🎉
           </h3>
           <form onSubmit={handleSubmit} className="py-4 md:py-0">
             <div className="mb-5">
@@ -72,7 +72,7 @@ const Login = () => {
                 onChange={handleInputChange}
                 name="email"
                 placeholder="Enter Your Email"
-                className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-[#0067FF] text-[16px] leading-7 text-headingColor placeholder:text-textColor"
+                className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-[#25b7e3] text-[16px] leading-7 text-headingColor placeholder:text-textColor"
                 required
               />
             </div>
@@ -84,7 +84,7 @@ const Login = () => {
                 onChange={handleInputChange}
                 name="password"
                 placeholder="Password"
-                className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-[#0067FF] text-[16px] leading-7 text-headingColor placeholder:text-textColor"
+                className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-[#25b7e3] text-[16px] leading-7 text-headingColor placeholder:text-textColor"
                 required
               />
             </div>
@@ -93,7 +93,7 @@ const Login = () => {
             <button
   type="submit"
   disabled={loading}
-  className="w-full bg-[#0067FF] text-white py-3 px-4 rounded-lg text-[18px] leading-[30px]"
+  className="w-full bg-[#25b7e3] text-white py-3 px-4 rounded-lg text-[18px] leading-[30px]"
 >
   {loading ? <HashLoader size={25} color="#fff" /> : "Login"}
 </button>
@@ -102,7 +102,7 @@ const Login = () => {
 
             <p className="mt-5 text-textColor text-center">
               Don&apos;t have an account?
-              <Link to="/register" className="text-[#0067FF] font-medium ml-1">
+              <Link to="/register" className="text-[#25b7e3] font-medium ml-1">
                 Register
               </Link>
             </p>

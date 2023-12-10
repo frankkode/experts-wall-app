@@ -22,7 +22,7 @@ const Dashboard = () => {
       <div className="max-w-[1170px] px-5 mx-auto">
         {loading && (
           <div className="flex items-center justify-center w-full h-full">
-            <HashLoader color="#0067FF" />
+            <HashLoader color="#25b7e3" />
           </div>
         )}
         {error && (

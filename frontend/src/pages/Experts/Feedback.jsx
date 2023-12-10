@@ -22,7 +22,7 @@ const Feedback = ({ reviews, totalRating }) => {
                 <img src={review.user.photo} alt="" className="w-full" />
               </figure>
               <div>
-                <h5 className="text-[16px] leading-6 text-[#0067FF] font-bold">
+                <h5 className="text-[16px] leading-6 text-[#25b7e3] font-bold">
                   {review.user.name}
                 </h5>
                 <p className="text-[14px] text-textColor leading-[22px]">
@@ -36,7 +36,7 @@ const Feedback = ({ reviews, totalRating }) => {
 
             <div className="flex gap-1">
               {[...Array(review.rating).keys()].map((_, index) => (
-                <AiFillStar key={index} color="#0067FF" />
+                <AiFillStar key={index} color="#25b7e3" />
               ))}
             </div>
           </div>

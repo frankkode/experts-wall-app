@@ -67,7 +67,7 @@ const SignUp = () => {
       <div className="max-w-[1170px] mx-auto ">
         <div className="grid grid-cols-1 lg:grid-cols-2 ">
           {/* ============ img box ========= */}
-          <div className="hidden lg:block bg-[#0067FF] rounded-l-lg">
+          <div className="hidden lg:block bg-[#25b7e3] rounded-l-lg">
             <figure className="rounded-l-lg">
               <img className="w-full rounded-l-lg" src={signupImg} alt="" />
             </figure>
@@ -75,7 +75,7 @@ const SignUp = () => {
 
           <div className="rounded-l-lg  lg:pl-16 py-10">
             <h3 className="text-headingColor text-[22px] leading-9 font-bold mb-10">
-              Create an <span className="text-[#0067FF]">Account</span>
+              Create an <span className="text-[#25b7e3]">Account</span>
             </h3>
             <form onSubmit={handleSubmit}>
               <div className="mb-5">
@@ -85,7 +85,7 @@ const SignUp = () => {
                   value={formData.name}
                   onChange={handleInputChange}
                   placeholder="Full Name"
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-[#0067FF] text-[16px] leading-7 text-headingColor placeholder:text-textColor"
+                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-[#25b7e3] text-[16px] leading-7 text-headingColor placeholder:text-textColor"
                   required
                 />
               </div>
@@ -96,7 +96,7 @@ const SignUp = () => {
                   onChange={handleInputChange}
                   name="email"
                   placeholder="Enter Your Email"
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-[#0067FF] text-[16px] leading-7 text-headingColor placeholder:text-textColor"
+                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-[#25b7e3] text-[16px] leading-7 text-headingColor placeholder:text-textColor"
                   required
                 />
               </div>
@@ -108,7 +108,7 @@ const SignUp = () => {
                   onChange={handleInputChange}
                   name="password"
                   placeholder="Password"
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-[#0067FF] text-[16px] leading-7 text-headingColor placeholder:text-textColor"
+                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-[#25b7e3] text-[16px] leading-7 text-headingColor placeholder:text-textColor"
                   required
                 />
               </div>
@@ -147,7 +147,7 @@ const SignUp = () => {
 
               <div className="mb-5 flex items-center gap-3">
                 {selectedFile && (
-                  <figure className="w-[60px] h-[60px] rounded-full border-2 border-solid border-[#0067FF] flex items-center justify-center">
+                  <figure className="w-[60px] h-[60px] rounded-full border-2 border-solid border-[#25b7e3] flex items-center justify-center">
                     <img
                       src={previewUrl}
                       alt="Preview"
@@ -179,7 +179,7 @@ const SignUp = () => {
                 <button
                   type="submit"
                   disabled={loading && true}
-                  className="w-full bg-[#0067FF] text-white py-3 px-4 rounded-lg text-[18px] leading-[30px]"
+                  className="w-full bg-[#25b7e3] text-white py-3 px-4 rounded-lg text-[18px] leading-[30px]"
                 >
                   {loading ? <HashLoader size={25} color="#fff" /> : "Sign Up"}
                 </button>
@@ -187,7 +187,7 @@ const SignUp = () => {
 
               <p className="mt-5 text-textColor text-center">
                 Already have an account?{" "}
-                <Link to="/login" className="text-[#0067FF] font-medium">
+                <Link to="/login" className="text-[#25b7e3] font-medium">
                   Login
                 </Link>
               </p>

@@ -483,7 +483,7 @@ const Profile = ({ expertData }) => {
 
         <div className="mb-5 flex items-center gap-3">
           {formData.photo && (
-            <figure className="w-[60px] h-[60px] rounded-full border-2 border-solid border-[#0067FF] flex items-center justify-center">
+            <figure className="w-[60px] h-[60px] rounded-full border-2 border-solid border-[#25b7e3] flex items-center justify-center">
               <img
                 src={formData.photo}
                 alt="Preview"
@@ -515,7 +515,7 @@ const Profile = ({ expertData }) => {
           <button
             type="submit"
             onClick={updateExpertHandler}
-            className="w-full bg-[#0067FF] text-white py-3 px-4 rounded-lg text-[18px] leading-[30px]"
+            className="w-full bg-[#25b7e3] text-white py-3 px-4 rounded-lg text-[18px] leading-[30px]"
           >
             Update Profile
           </button>
