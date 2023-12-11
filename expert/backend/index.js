@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
   res.send("hello server");
 });
 
-// database connection
+// database connection.
 mongoose.set("strictQuery", false);
 const connectDB = async () => {
   try {
