@@ -40,7 +40,7 @@ const quickLinks01 = [
     display: "Services",
   },
   {
-    path: "/",
+    path: "/contact",
     display: "Blog",
   },
 ];
@@ -51,22 +51,22 @@ const quickLinks02 = [
     display: "Find a Debugger",
   },
   {
-    path: "/",
+    path: "/contact",
     display: "Request an Appointment",
   },
   {
-    path: "/",
+    path: "/contact",
     display: "Find a Location",
   },
   {
-    path: "/",
+    path: "/contact",
     display: "Get a Opinion",
   },
 ];
 
 const quickLinks03 = [
   {
-    path: "/",
+    path: "/contact",
     display: "Donate",
   },
   {

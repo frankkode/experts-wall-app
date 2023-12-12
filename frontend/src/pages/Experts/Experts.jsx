@@ -3,6 +3,7 @@ import ExpertCard from "../../components/Experts/ExpertCard";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import { BASE_URL } from "../../config";
 import useFetchData from "../../hooks/useFetchData";
+import { AiOutlineMonitor } from "react-icons/ai";
 import HashLoader from "react-spinners/HashLoader";
 
 const Experts = () => {
@@ -42,10 +43,10 @@ const Experts = () => {
               onChange={e => setQuery(e.target.value)}
             />
             <button
-              className="btn mt-0 rounded-[0px] rounded-r-md"
+              className="btn mt-0 rounded-[0px] rounded-md w-20 mr-4"
               onClick={handleSearch}
             >
-              Search
+             <AiOutlineMonitor/>
             </button>
           </div>
         </div>

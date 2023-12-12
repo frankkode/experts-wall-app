@@ -1,9 +1,9 @@
-import logo from "../../assets/images/nh7.webp";
+import logo from "../../assets/images/logo1.png";
 import { NavLink, Link } from "react-router-dom";
 import { BiMenu } from "react-icons/bi";
 import { useContext, useEffect, useRef } from "react";
 
-import { AuthContext } from "./../../context/AuthContext";
+import { AuthContext } from "../../context/AuthContext";
 
 const navLinks = [
   {
@@ -56,8 +56,8 @@ const Header = () => {
       <div className="container">
         <div className="flex items-center justify-between">
           {/* =========== logo ========== */}
-          <div className="w-[100px] ]">
-            <img src={logo} alt="logo" />
+          <div className="w-[200px] ]">
+            <Link to="/home"><img src={logo} alt="logo" /></Link>
           </div>
 
           {/* ========== nav menu =========== */}
