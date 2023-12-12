@@ -316,7 +316,7 @@ CLIENT_SITE_URL=http://localhost:5173 ## Example: http://localhost:5173
 
 These steps will help you set up and run the ExpertWALL application locally.
 
-[![WATCH VIDEO](frontend/src/assets/visualisation/mov2.png)](https://photos.app.goo.gl/rgb6a2CBGuCnBsyx5)
+[![WATCH VIDEO](frontend/src/assets/visualisation/mov2.png)](frontend/src/assets/visualisation/mov2.mov)
 
 ## SAVING IMAGES
 Images are saved to Cloudinary follow this link to learn how to set up a Cloudinary account and create a cloudinary_name (name of your project) and upload_preset (name of your folder)
@@ -330,7 +330,7 @@ Images are saved to Cloudinary follow this link to learn how to set up a Cloudin
 The project follows a well-organized structure, ensuring maintainability and scalability.
 
 
-[![WATCH VIDEO](frontend/src/assets/visualisation/vid.png)](https://photos.app.goo.gl/h7PWZaGztzpKbauG9)
+[![WATCH VIDEO](frontend/src/assets/visualisation/vid.png)](frontend/src/assets/visualisation/mov1.mp4)
 
 
 ## How to Use
