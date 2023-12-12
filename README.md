@@ -42,28 +42,6 @@ This comprehensive README provides an in-depth understanding of the project's ar
 ## Introduction
 
 ExpertWall is a platform where engineering experts and users connect seamlessly. The application is designed to facilitate a smooth exchange of knowledge and assistance.
-
-## MOBILE FIRST APPROACH
-![Laptop](frontend/src/assets/visualisation/mf.png)
-
-## LAPTOP
-![Laptop](frontend/src/assets/visualisation/iu2.png)
-
-## IPAD
-![iPad](/frontend/src/assets/visualisation/iu3.png)
-
-## PHONE
-
-![Phone](/frontend/src/assets/visualisation/iu4.png)
-
-## Conceptual Design for Expert Wall Application
-## CLOUD ARCHITECTURE
-
-![CLOUD ARCHITECTURE](/frontend/src/assets/visualisation/cloud-architecture.png)
-
-## EXPERT WALL ENTITY RELATIONSHIP
-![CLOUD ARCHITECTURE](/frontend/src/assets/visualisation/schema.png)
-
 ## Core Idea:
 
 Expert Wall application is an innovative web application designed as a platform for junior software developers to connect with senior software developers effortlessly. Access to expert profiles is facilitated by reading expert profiles and choosing which domain of expertise you are looking for, this application ensures the authenticity and quality of interactions.
@@ -88,8 +66,29 @@ Expert Wall application is an innovative web application designed as a platform 
   **Methodologies**
   **1. Agile Methodology: **Agile, chosen for its flexibility and user-centric focus, supports incremental development, aligning with user needs and expectations.
 
-## Technologies
 
+## MOBILE FIRST APPROACH
+![Laptop](frontend/src/assets/visualisation/mf.png)
+
+## LAPTOP
+![Laptop](frontend/src/assets/visualisation/iu2.png)
+
+## IPAD
+![iPad](/frontend/src/assets/visualisation/iu3.png)
+
+## PHONE
+
+![Phone](/frontend/src/assets/visualisation/iu4.png)
+
+## Conceptual Design for Expert Wall Application
+## CLOUD ARCHITECTURE
+
+![CLOUD ARCHITECTURE](/frontend/src/assets/visualisation/cloud-architecture.png)
+
+## EXPERT WALL ENTITY RELATIONSHIP
+![CLOUD ARCHITECTURE](/frontend/src/assets/visualisation/schema.png)
+
+## Technologies
 ### Frontend
 
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
