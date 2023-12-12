@@ -56,10 +56,12 @@ ExpertWall is a platform where engineering experts and users connect seamlessly.
 
 ![Phone](/frontend/src/assets/visualisation/iu4.png)
 
-## Conceptual Design for Expert Wall Application**
+## Conceptual Design for Expert Wall Application
+## CLOUD ARCHITECTURE
 
-![CLOUD ARCHITECTURE](/frontend/src/assets/visualisation/cloud.png)
+![CLOUD ARCHITECTURE](/frontend/src/assets/visualisation/cloud-architecture.png)
 
+## EXPERT WALL ENTITY RELATIONSHIP
 ![CLOUD ARCHITECTURE](/frontend/src/assets/visualisation/schema.png)
 
 ## Core Idea:
@@ -185,7 +187,7 @@ React, React Spinner, React Router DOM, and React Icon are combined to create a 
 
 ## Other Technologies
 
-TileWinds CSS is used for styling, providing a structured and visually appealing layout for the application. Local Storage Mock is employed during development to simulate local storage behavior.
+TailWind CSS is used for styling, providing a structured and visually appealing layout for the application. Local Storage Mock is employed during development to simulate local storage behavior.
 
 # Expert Availability
 
@@ -250,10 +252,6 @@ A user who is loged in can give a review, only after booking an expert.
 ExpertWall uses [Stripe](https://stripe.com/) to facilitate secure and seamless payment transactions. Users can pay for expert services with confidence.
 ## PAYMENT LAPTOP
 ![IMAGE](frontend/src/assets/visualisation/iu10.png)
-## PAYMENT IPAD
-![IMAGE](frontend/src/assets/visualisation/iu11.png)
-## PAYMENT MOBILE
-![IMAGE](frontend/src/assets/visualisation/iu12.png)
 
 ![IMAGE](frontend/src/assets/visualisation/iu13.png)
 
@@ -261,6 +259,7 @@ ExpertWall uses [Stripe](https://stripe.com/) to facilitate secure and seamless 
 
 Utilizes React Spinner, Router, Icon, and Framer Motion for an enhanced frontend experience.
 
+## servises
 ![IMAGE](frontend/src/assets/visualisation/iu17.png)
 
 ### Other Technologies
@@ -268,14 +267,16 @@ Utilizes React Spinner, Router, Icon, and Framer Motion for an enhanced frontend
 - [TileWinds CSS](https://www.npmjs.com/package/tailwindcss) for styling.
 - [Local Storage Mock](https://www.npmjs.com/package/jest-localstorage-mock) for development.
 
+## EXPERT PROFILE
 ![IMAGE](frontend/src/assets/visualisation/iu8.png)
 
 ### Expert Availability
 
 Experts can set their availability schedules, allowing users to see when they are available for consultation.
 
+## AVAILABLE EXPERTS
 ![IMAGE](frontend/src/assets/visualisation/iu19.png)
-
+## EXPERT DATA (FORM)
 ![IMAGE](frontend/src/assets/visualisation/iu7.png)
 
 ## User Review
