@@ -4,7 +4,17 @@
 
 ## Overview
 
-ExpertWall is a dynamic platform connecting skilled engineers and users seeking expertise. This comprehensive README provides an in-depth understanding of the project's architecture, technologies used, and key features, this application is responsive and mobile first approach, means you can run the application on the phone, ipad, tablet and desktop without interuption.
+ExpertWall is a dynamic platform connecting skilled engineers and users seeking expertise. Expert Wall stands as a sophisticated application meticulously crafted to foster collaboration between software developers and industry experts. Positioned as a platform where developers can actively seek guidance and assistance in the intricate task of debugging code, the application boasts a technologically advanced foundation. Leveraging cutting-edge technologies such as the MERN stack (MongoDB, Express.js, React, Node.js), Tailwind CSS, JWT (JSON Web Token), Vite, and Jest, Expert Wall is committed to delivering a robust and seamlessly integrated user experience.
+
+The platform prioritizes visual enhancements and a polished user interface by harnessing the capabilities of Cloudinary to securely host images. Users engaging with the platform's assistance services initiate secure transactions via Stripe, ensuring a reliable and protected payment process. Admins play a pivotal role in upholding the caliber of expertise available, meticulously reviewing and approving experts based on stringent qualification standards.
+
+Experts, in turn, enjoy a high degree of personalization for their profiles. This includes the ability to showcase availability schedules, set hourly rates, provide detailed experience information, and highlight the educational institutions they attended. Both users and experts have the autonomy to delete their accounts if they deem it necessary. The user registration process is designed for flexibility, accommodating both individual and company profiles based on distinct needs.
+
+The platform further empowers users and experts by enabling them to seamlessly edit or delete their profiles, ensuring that presented information remains accurate and current. Users actively contribute to the platform's credibility by adding reviews to expert profiles, a privilege granted only after engaging with the expert's services and being activated as a purchaser.
+
+To elevate user engagement, the platform strategically incorporates toast notifications, offering users timely and explicit updates. This feature significantly enhances the overall user experience, ensuring users stay informed about pertinent activities and updates within the platform. In essence, Expert Wall is dedicated to providing a comprehensive, efficient, and sophisticated environment for knowledge exchange and collaborative problem-solving within the developer community. 
+
+This comprehensive README provides an in-depth understanding of the project's architecture, technologies used, and key feature. This application is responsive and mobile first approach, means you can run the application on the phone, iPad, tablet, and desktop without interuption.
 
 ## Table of Contents
 
@@ -33,7 +43,7 @@ ExpertWall is a dynamic platform connecting skilled engineers and users seeking 
 
 ExpertWall is a platform where engineering experts and users connect seamlessly. The application is designed to facilitate a smooth exchange of knowledge and assistance.
 
-## MOBILE FIRST APROACH
+## MOBILE FIRST APPROACH
 ![Laptop](frontend/src/assets/visualisation/mf.png)
 
 ## LAPTOP
@@ -328,7 +338,7 @@ Images are saved to Cloudinary follow this link to learn how to set up a Cloudin
 - make sure the preset to be "unsigned"
 (https://www.youtube.com/watch?v=7lhUsK-FxYI)
 
-![IMAGE](frontend/src/assets/visualisation/cloudinary.png)
+![IMAGE](frontend/src/assets/visualisation/cloud-architecture.png)
 
 ## Project Structure
 
