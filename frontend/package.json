@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  /*//usualy vite test application, but to test manualy make "type": "commonjs", then run npm test*/
-  
+//usualy vite test application, but to test manualy make 
+//"type": "commonjs", then run npm test
   "scripts": {
     "dev": "vite",
     "build": "vite build",
