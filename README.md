@@ -16,6 +16,10 @@ To elevate user engagement, the platform strategically incorporates toast notifi
 
 This comprehensive README provides an in-depth understanding of the project's architecture, technologies used, and key feature. This application is responsive and mobile first approach, means you can run the application on the phone, iPad, tablet, and desktop without interuption.
 
+## Video Link on how app work and how to install locally :
+
+https://vimeo.com/895566399/23a1c22e20?share=copy
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -381,20 +385,25 @@ Refer to the [documentation](#documentation-and-testing) for a step-by-step guid
 
 ## RUN FRONTEND
 
-1. After installing ExpertWALL locally go to your teminal and type "cd frontend" then run the frontend by typing " npm run dev".
+1. After installing ExpertWALL locally go to your teminal and type "cd frontend" type ´npm i´ to install dependances then run the frontend by typing " npm run dev".
 
 ## RUN BACKEND
 
-2. open other terminal and type "CD backend" then run the backend by typing "npm run start-dev".
+2. open other terminal and type "CD backend" type ´npm i´to install dependances then run the backend by typing "npm run start-dev".
+
+Note: rememberto add .env file in your backend folder and add all the credancials as explained.
 
 ## TESTING
 
-3.  To test this application, just go to frontend and run "npm test" from there Jest will test the application.
+3. NOTE: usualy vite test application Automatically, but to test application manually make got to package.json, and change type from "type": "commonjs" to
+"type": "commonjs", then run ´npm test´ from there Jest will test the application manually.
 
 ## TEST SUMMARY
 
 ![IMAGE](frontend/src/assets/visualisation/test.png)
 
+## Video 
+https://vimeo.com/895566399/23a1c22e20?share=copy
 ## Contributing
 
 We will welcome contributions in the future! Check the [Contributing Guidelines](CONTRIBUTING.md) for details in future.
