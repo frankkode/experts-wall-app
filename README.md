@@ -244,12 +244,16 @@ Users can create profiles with:
 - Phone Number
 - Question or Help Request Details
 
+## Expert frofile
 ![Laptop](frontend/src/assets/visualisation/iu6.png)
 
+## User profile
 ![Laptop](frontend/src/assets/visualisation/iu14.png)
 
+## Experts boocked by a user
 ![Laptop](frontend/src/assets/visualisation/iu15.png)
 
+## Expert availability and price per hour
 ![Laptop](frontend/src/assets/visualisation/iu16.png)
 
 ### Expert Registration
@@ -278,9 +282,11 @@ A user who is loged in can give a review, only after booking an expert.
 
 ExpertWall uses [Stripe](https://stripe.com/) to facilitate secure and seamless payment transactions. Users can pay for expert services with confidence.
 
-## PAYMENT LAPTOP
+## PAYMENT by stripe
 
 ![IMAGE](frontend/src/assets/visualisation/iu10.png)
+
+## peyment confirmation
 
 ![IMAGE](frontend/src/assets/visualisation/iu13.png)
 
@@ -297,9 +303,6 @@ Utilizes React Spinner, Router, Icon, and Framer Motion for an enhanced frontend
 - [TileWinds CSS](https://www.npmjs.com/package/tailwindcss) for styling.
 - [Local Storage Mock](https://www.npmjs.com/package/jest-localstorage-mock) for development.
 
-## EXPERT PROFILE
-
-![IMAGE](frontend/src/assets/visualisation/iu8.png)
 
 ### Expert Availability
 
@@ -337,7 +340,8 @@ STRIPE_SECRET_KEY= your key here
 
 CLIENT_SITE_URL=http://localhost:5173 ## Example: http://localhost:5173
 
-## SET .ENV
+## .env file
+remember to add .env file in your backend folder before running this application, and add all the credentials as shown on below image
 
 ![IMAGE](frontend/src/assets/visualisation/iu20.png)
 
@@ -371,6 +375,8 @@ Images are saved to Cloudinary follow this link to learn how to set up a Cloudin
 - make sure the preset to be "unsigned"
   (https://www.youtube.com/watch?v=7lhUsK-FxYI)
 
+## Cloud architecture
+
 ![IMAGE](frontend/src/assets/visualisation/cloud-architecture.png)
 
 ## Project Structure
@@ -398,6 +404,9 @@ Note: rememberto add .env file in your backend folder and add all the credancial
 3. NOTE: usualy vite test application Automatically, but to test application manually make got to package.json, and change type from "type": "commonjs" to
 "type": "commonjs", then run ´npm test´ from there Jest will test the application manually.
 
+## TESTING
+
+![IMAGE](frontend/src/assets/visualisation/testing.png)
 ## TEST SUMMARY
 
 ![IMAGE](frontend/src/assets/visualisation/test.png)
