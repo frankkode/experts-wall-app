@@ -419,7 +419,7 @@ We will welcome contributions in the future! Check the [Contributing Guidelines]
 
 ## Acknowledgements
 
-Special thanks to INTERNATIONAL UNIVERSITY OF APPLIED SCIENCE [IUBH GERMANY] (https://www.iu.org/lp/distance-learning-degrees/), [CODE WITH MOSH ONLINE COURSE.](https://codewithmosh.com/p/mastering-react)
+Special thanks to INTERNATIONAL UNIVERSITY OF APPLIED SCIENCE [IUBH GERMANY.](https://www.iu.org/lp/distance-learning-degrees/), [CODE WITH MOSH.](https://codewithmosh.com/p/mastering-react)
 , [FIGMA.](www.figma.com), [MONGODB.](www.mongodb.com), [STRIPE.](www.stripe.com), [CLOUDINARY.](www.cloudinary.com)
 , [CANVAS.](https://www.canva.com/)
 
