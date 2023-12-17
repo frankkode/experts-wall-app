@@ -16,7 +16,7 @@ To elevate user engagement, the platform strategically incorporates toast notifi
 
 This comprehensive README provides an in-depth understanding of the project's architecture, technologies used, and key feature. This application is responsive and mobile first approach, means you can run the application on the phone, iPad, tablet, and desktop without interuption.
 
-## Video Link on how app work and how to install locally :
+## Video Link on how Expert wall application works and how to install it locally :
 
 https://vimeo.com/895566399/23a1c22e20?share=copy
 
