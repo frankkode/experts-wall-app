@@ -12,7 +12,7 @@ Experts, in turn, enjoy a high degree of personalization for their profiles. Thi
 
 The platform further empowers users and experts by enabling them to seamlessly edit or delete their profiles, ensuring that presented information remains accurate and current. Users actively contribute to the platform's credibility by adding reviews to expert profiles, a privilege granted only after engaging with the expert's services and being activated as a purchaser.
 
-To elevate user engagement, the platform strategically incorporates toast notifications, offering users timely and explicit updates. This feature significantly enhances the overall user experience, ensuring users stay informed about pertinent activities and updates within the platform. In essence, Expert Wall is dedicated to providing a comprehensive, efficient, and sophisticated environment for knowledge exchange and collaborative problem-solving within the developer community. 
+To elevate user engagement, the platform strategically incorporates toast notifications, offering users timely and explicit updates. This feature significantly enhances the overall user experience, ensuring users stay informed about pertinent activities and updates within the platform. In essence, Expert Wall is dedicated to providing a comprehensive, efficient, and sophisticated environment for knowledge exchange and collaborative problem-solving within the developer community.
 
 This comprehensive README provides an in-depth understanding of the project's architecture, technologies used, and key feature. This application is responsive and mobile first approach, means you can run the application on the phone, iPad, tablet, and desktop without interuption.
 
@@ -42,6 +42,7 @@ This comprehensive README provides an in-depth understanding of the project's ar
 ## Introduction
 
 ExpertWall is a platform where engineering experts and users connect seamlessly. The application is designed to facilitate a smooth exchange of knowledge and assistance.
+
 ## Core Idea:
 
 Expert Wall application is an innovative web application designed as a platform for junior software developers to connect with senior software developers effortlessly. Access to expert profiles is facilitated by reading expert profiles and choosing which domain of expertise you are looking for, this application ensures the authenticity and quality of interactions.
@@ -54,26 +55,39 @@ Expert Wall application is an innovative web application designed as a platform 
 - A device (phone, laptop, or tablet)
 - Internet connectivity
 - A valid email for registration
-- A secure password  
-  **Overall Architecture**
-  **Key Components: **
+- A secure password
 
-- **User**: Represents end-users seeking expert advice.
-- **Admin**: Manages user and expert accounts.
-- **Login**: Allows users and admins to access their accounts.
-- **Register**: Permits new users to create platform accounts.
-- **Expert**: Represents experts across various domains in technology.  
-  **Methodologies**
-  **1. Agile Methodology: **Agile, chosen for its flexibility and user-centric focus, supports incremental development, aligning with user needs and expectations.
+## Overall Architecture
 
+### Key Components:
+
+- #### User:
+  Represents end-users seeking expert advice.
+- #### Admin:
+  Manages user and expert accounts.
+- #### Login:
+  Allows users and admins to access their accounts.
+- #### Register:
+  Permits new users to create platform accounts.
+- #### Expert:
+  Represents experts across various domains in technology.
+
+## Methodologies
+
+### 1. Agile Methodology:
+
+Agile, chosen for its flexibility and user-centric focus, supports incremental development, aligning with user needs and expectations.
 
 ## MOBILE FIRST APPROACH
+
 ![Laptop](frontend/src/assets/visualisation/mf.png)
 
 ## LAPTOP
+
 ![Laptop](frontend/src/assets/visualisation/iu2.png)
 
 ## IPAD
+
 ![iPad](/frontend/src/assets/visualisation/iu3.png)
 
 ## PHONE
@@ -81,14 +95,17 @@ Expert Wall application is an innovative web application designed as a platform 
 ![Phone](/frontend/src/assets/visualisation/iu4.png)
 
 ## Conceptual Design for Expert Wall Application
+
 ## CLOUD ARCHITECTURE
 
 ![CLOUD ARCHITECTURE](/frontend/src/assets/visualisation/cloud-architecture.png)
 
 ## EXPERT WALL ENTITY RELATIONSHIP
+
 ![CLOUD ARCHITECTURE](/frontend/src/assets/visualisation/schema.png)
 
 ## Technologies
+
 ### Frontend
 
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
@@ -112,9 +129,16 @@ Expert Wall application is an innovative web application designed as a platform 
 
 ## React
 
-**What it is:** A JavaScript library for building user interfaces.  
-**How it works:** React allows you to create reusable UI components that update efficiently in response to data changes. It uses a virtual DOM to optimize rendering performance.
+#### What it is:
+
+A JavaScript library for building user interfaces.
+
+#### How it works:
+
+React allows you to create reusable UI components that update efficiently in response to data changes. It uses a virtual DOM to optimize rendering performance.
+
 ## FIRST DISPLAYING (HELLO WORLD)
+
 ![Phone](/frontend/src/assets/visualisation/iu1.png)
 
 # React + Vite
@@ -249,7 +273,9 @@ A user who is loged in can give a review, only after booking an expert.
 ### Stripe Payments
 
 ExpertWall uses [Stripe](https://stripe.com/) to facilitate secure and seamless payment transactions. Users can pay for expert services with confidence.
+
 ## PAYMENT LAPTOP
+
 ![IMAGE](frontend/src/assets/visualisation/iu10.png)
 
 ![IMAGE](frontend/src/assets/visualisation/iu13.png)
@@ -259,6 +285,7 @@ ExpertWall uses [Stripe](https://stripe.com/) to facilitate secure and seamless 
 Utilizes React Spinner, Router, Icon, and Framer Motion for an enhanced frontend experience.
 
 ## servises
+
 ![IMAGE](frontend/src/assets/visualisation/iu17.png)
 
 ### Other Technologies
@@ -267,6 +294,7 @@ Utilizes React Spinner, Router, Icon, and Framer Motion for an enhanced frontend
 - [Local Storage Mock](https://www.npmjs.com/package/jest-localstorage-mock) for development.
 
 ## EXPERT PROFILE
+
 ![IMAGE](frontend/src/assets/visualisation/iu8.png)
 
 ### Expert Availability
@@ -274,8 +302,11 @@ Utilizes React Spinner, Router, Icon, and Framer Motion for an enhanced frontend
 Experts can set their availability schedules, allowing users to see when they are available for consultation.
 
 ## AVAILABLE EXPERTS
+
 ![IMAGE](frontend/src/assets/visualisation/iu19.png)
+
 ## EXPERT DATA (FORM)
+
 ![IMAGE](frontend/src/assets/visualisation/iu7.png)
 
 ## User Review
@@ -327,16 +358,14 @@ CLIENT_SITE_URL=http://localhost:5173 ## Example: http://localhost:5173
 
 These steps will help you set up and run the ExpertWALL application locally.
 
-
-
 https://github.com/frankkode/experts-wall-app/assets/47331514/8c648fa1-9363-48b0-bad6-55e12192d254
 
-
-
 ## SAVING IMAGES
+
 Images are saved to Cloudinary follow this link to learn how to set up a Cloudinary account and create a cloudinary_name (name of your project) and upload_preset (name of your folder)
+
 - make sure the preset to be "unsigned"
-(https://www.youtube.com/watch?v=7lhUsK-FxYI)
+  (https://www.youtube.com/watch?v=7lhUsK-FxYI)
 
 ![IMAGE](frontend/src/assets/visualisation/cloud-architecture.png)
 
@@ -344,10 +373,7 @@ Images are saved to Cloudinary follow this link to learn how to set up a Cloudin
 
 The project follows a well-organized structure, ensuring maintainability and scalability.
 
-
-
 https://github.com/frankkode/experts-wall-app/assets/47331514/6d399fbb-fca8-4591-a05d-fb667995b633
-
 
 ## How to Use
 
@@ -376,5 +402,7 @@ We will welcome contributions in the future! Check the [Contributing Guidelines]
 ## Acknowledgements
 
 Special thanks to INTERNATIONAL UNIVERSITY OF APPLIED SCIENCE [IUBH GERMANY] (https://www.iu.org/lp/distance-learning-degrees/), [CODE WITH MOSH ONLINE COURSE.](https://codewithmosh.com/p/mastering-react)
+, [FIGMA.](www.figma.com), [MONGODB.](www.mongodb.com), [STRIPE.](www.stripe.com), [CLOUDINARY.](www.cloudinary.com)
+, [CANVAS.](https://www.canva.com/)
 
 ![IMAGE](frontend/src/assets/visualisation/thank.png)
