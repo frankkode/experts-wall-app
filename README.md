@@ -334,6 +334,7 @@ To run this application locally, follow these steps:
 
 - set .env file in the root of the backend and add the appropriete keys as follows:
 
+```
 PORT=5005
 
 MONGO_URI= your key here
@@ -344,6 +345,7 @@ STRIPE_SECRET_KEY= your key here
 
 CLIENT_SITE_URL=http://localhost:5173 ## Example: http://localhost:5173
 
+```
 ## .env file
 remember to add .env file in your backend folder before running this application, and add all the credentials as shown on below image
 
@@ -352,14 +354,14 @@ remember to add .env file in your backend folder before running this application
 2. Set up MongoDB:
 
    - Create an account on MongoDB and obtain a MongoDB URI.
-   - Add the MongoDB URI to the `.env` file located in your backend folder. [Learn more about MongoDB URI](https://www.mongodb.com/atlas)[video](https://www.youtube.com/watch?v=xrc7dIO_tXk&list=PL4RCxklHWZ9vmzBP7lybE08CxbIU17PIf).
+   - Add the MongoDB URI to the ```.env``` file located in your backend folder. [Learn more about MongoDB URI](https://www.mongodb.com/atlas)[video](https://www.youtube.com/watch?v=xrc7dIO_tXk&list=PL4RCxklHWZ9vmzBP7lybE08CxbIU17PIf).
 
 3. Set up Stripe:
 
    - Create a test account on Stripe and obtain a secret key.
    - Follow [this link](https://stripe.com/) for more details or by [Video] (https://www.youtube.com/watch?v=Tn5dZXr9ZIs) .
 
-4. Generate a JWT secret key by running the following command in your terminal: `[node -e "console.log(require('crypto').randomBytes(256).toString('base64'));"]`.
+4. Generate a JWT secret key by running the following command in your terminal: ``` node -e "console.log(require('crypto').randomBytes(256).toString('base64'));" ```.
 
 5. Ensure you have Node.js installed on your computer.
 
@@ -376,7 +378,7 @@ https://github.com/frankkode/experts-wall-app/assets/47331514/8c648fa1-9363-48b0
 
 Images are saved to Cloudinary follow this link to learn how to set up a Cloudinary account and create a cloudinary_name (name of your project) and upload_preset (name of your folder)
 
-- make sure the preset to be "unsigned"
+- make sure the preset to be `unsigned` as i explained in the video on 2:15 minutes https://vimeo.com/895372894/b5eb041407
   (https://www.youtube.com/watch?v=7lhUsK-FxYI)
 
 ## Cloud architecture
@@ -395,18 +397,18 @@ Refer to the [documentation](#documentation-and-testing) for a step-by-step guid
 
 ## RUN FRONTEND
 
-1. After installing ExpertWALL locally go to your teminal and type "cd frontend" type ´npm i´ to install dependances then run the frontend by typing " npm run dev".
+1. After installing ExpertWALL locally go to your teminal and type "cd frontend" type `npm i` to install dependances then run the frontend by typing ` npm run dev`.
 
 ## RUN BACKEND
 
-2. open other terminal and type "CD backend" type ´npm i´to install dependances then run the backend by typing "npm run start-dev".
+2. open other terminal and type `CD backend` type `npm i`to install dependances then run the backend by typing `npm run start-dev`.
 
 Note: rememberto add .env file in your backend folder and add all the credancials as explained.
 
 ## TESTING
 
-3. NOTE: usualy vite test application Automatically, but to test application manually make got to package.json, and change type from "type": "commonjs" to
-"type": "commonjs", then run ´npm test´ from there Jest will test the application manually.
+3. NOTE: usualy vite test application Automatically, but to test application manually go to frontend folder then to package.json, and change type from `"type": "module" `to
+`"type": "commonjs"`, then run `npm test` from there Jest will test the application manually.
 
 ## TESTING
 
