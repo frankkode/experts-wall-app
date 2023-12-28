@@ -1,0 +1,85 @@
+ExpertWall: A Platform for Connecting Engineering Experts and Users Seeking Expertise
+
+ExpertWall is a web application that connects skilled engineers with users seeking assistance with technical issues. The platform facilitates seamless knowledge exchange and problem-solving, empowering developers to collaborate effectively.
+
+Key Features
+
+User Registration: Users create profiles with their name, email, phone number, and question or help request details.
+Expert Registration: Experts provide detailed profiles with their name, email, phone number, educational background, work experience, and availability schedule.
+Secure Payment Transactions: Stripe powers secure and reliable payment processing for expert services.
+React Stack: React, React Router DOM, React Spinner, React Icon, and Framer Motion are combined to create a powerful frontend experience.
+Tailwind CSS: Provides a structured and visually appealing layout for the application.
+Cloudinary: Images are stored and managed using Cloudinary's secure and scalable infrastructure.
+
+Benefits of Using ExpertWall
+
+Effortless Knowledge Exchange: Experts share their expertise with users, bridging the gap between knowledge and problem-solving.
+Collaborative Problem-Solving: Users and experts work together to resolve technical issues, accelerating development and innovation.
+Enhanced Developer Productivity: Experts provide quick and efficient assistance, freeing up developers' time to focus on core tasks.
+
+How to Install and Run ExpertWall Locally
+
+Clone the Repository:
+Clone the repository from GitHub to your local machine using the following command:
+
+open the folder in any code editor, go to the terminal
+
+git clone https://github.com/frankkode/experts-wall-app.git
+
+
+Install Dependencies:
+Navigate to the backend and frontend folders separately and install the required dependencies using the following commands:
+
+in your terminal (root folder):
+cd backend
+npm install
+
+in terminal (root folder)
+cd frontend
+npm install
+
+Environmental Setup:
+Create .env files in the backend and add the following environment variables:
+
+backend/.env
+
+PORT=5005
+MONGO_URI=YOUR_MONGODB_URI
+JWT_SECRET_KEY=YOUR_JWT_SECRET_KEY
+STRIPE_SECRET_KEY=YOUR_STRIPE_SECRET_KEY
+CLIENT_SITE_URL=http://localhost:5173
+
+Replace YOUR_MONGODB_URI, YOUR_JWT_SECRET_KEY, and YOUR_STRIPE_SECRET_KEY with your actual values.
+
+Running the Backend:
+Navigate to the backend folder and run the following command to start the backend server:
+
+terminal:
+npm run start-dev
+
+Running the Frontend:
+Navigate to the frontend folder and run the following command to start the frontend application:
+
+terminal
+npm run dev
+
+Accessing the Application:
+Open your web browser and go to http://localhost:5173 (or any other port you specified on your env file) to access the ExpertWall application.
+
+Testing:
+To run the test suite, navigate to the frontend folder and run the following command:
+
+terminal
+npm test (remember to change type from "type"="module" to "type"="commonjs" in your frontend -> package.json file)
+
+## FULL Video Link on how Expert wall application works and how to install it locally :
+
+https://vimeo.com/895566399/23a1c22e20?share=copy
+
+## SHOWCAST VIDEO OF APP SUMMARY
+
+https://vimeo.com/898362407/f8c9439c8b?share=copy
+
+for more reffer to readme.md file
+
+thank you

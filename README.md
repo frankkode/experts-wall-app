@@ -22,7 +22,7 @@ https://vimeo.com/895566399/23a1c22e20?share=copy
 
 ## SHOWCAST VIDEO OF APP SUMMARY
 
-https://vimeo.com/895594785/92b7a18725?share=copy
+https://vimeo.com/898362407/f8c9439c8b?share=copy
 
 ## Table of Contents
 
@@ -90,10 +90,12 @@ Agile, chosen for its flexibility and user-centric focus, supports incremental d
 
 ![Laptop](frontend/src/assets/visualisation/mf.png)
 
+Application is responsive on all the devices including mobile and tablet This is a home page on mobile phone
 ## LAPTOP
-
+Application is responsive on all the devices including desktopThis is a h ome page on desktop
 ![Laptop](frontend/src/assets/visualisation/iu2.png)
 
+Application is responsive on all the devices including  tablet This is a home page on ipad
 ## IPAD
 
 ![iPad](/frontend/src/assets/visualisation/iu3.png)
@@ -106,7 +108,7 @@ Agile, chosen for its flexibility and user-centric focus, supports incremental d
 
 ## CLOUD ARCHITECTURE
 
-![CLOUD ARCHITECTURE](/frontend/src/assets/visualisation/cloud-architecture.png)
+![CLOUD ARCHITECTURE](/frontend/src/assets/visualisation/cloud-architecture3.png)
 
 ## EXPERT WALL ENTITY RELATIONSHIP
 
@@ -234,6 +236,8 @@ The project includes comprehensive documentation, ensuring that developers and c
 
 A robust testing suite is implemented to verify the reliability and correctness of the application. This likely involves unit tests, integration tests, and end-to-end tests.
 
+##
+This is experts list, this means that admin has screen them before activating them as qualified experts, expertise and down ratings fron users.
 ![Expertwall](/frontend/src/assets/visualisation/iu5.png)
 
 ## Key Features
@@ -249,12 +253,17 @@ Users can create profiles with:
 - Question or Help Request Details
 
 ## Expert frofile
-![Laptop](frontend/src/assets/visualisation/iu6.png)
+Expert profile after registration and updating profile
 
+![Laptop](frontend/src/assets/visualisation/iu6.png)
+##
+User profile after registration and updating profile
 ## User profile
 ![Laptop](frontend/src/assets/visualisation/iu14.png)
 
 ## Experts boocked by a user
+
+Booked expert on iPad
 ![Laptop](frontend/src/assets/visualisation/iu15.png)
 
 ## Expert availability and price per hour
@@ -383,7 +392,7 @@ Images are saved to Cloudinary follow this link to learn how to set up a Cloudin
 
 ## Cloud architecture
 
-![IMAGE](frontend/src/assets/visualisation/cloud-architecture.png)
+![IMAGE](frontend/src/assets/visualisation/cloud-architecture3.png)
 
 ## Project Structure
 
